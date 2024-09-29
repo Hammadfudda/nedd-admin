@@ -1,0 +1,39 @@
+body {
+    user-select: none;
+    margin-top: 150px; /* Adjust this value based on your navbar height */
+}
+
+.navbar {
+    margin-bottom: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0; /* Ensure the navbar is positioned at the top */
+    z-index: 1000; /* Ensure the navbar is above other content */
+}
+
+.navbar-brand {
+    height: 100px;
+    width: 100px;
+}
+
+.data {
+    background-color: aqua;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.number {
+    margin: 10px;
+}
+
+#image {
+    margin:10px;
+    display:flex;
+    justify-content:center;
+    height:100px;
+    width:100px;
+}
